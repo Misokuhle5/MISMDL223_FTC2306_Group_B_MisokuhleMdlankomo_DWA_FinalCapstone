@@ -15,7 +15,7 @@ function ShowPreview() {
         const show = await fetchShowById(showId);
         setShowData(show);
 
-        const seasonsData = await fetchSeasons(showId);
+        const seasonsData = await fetchShowById(showId);
         setSeasons(seasonsData);
       } catch (error) {
         console.error(error);
