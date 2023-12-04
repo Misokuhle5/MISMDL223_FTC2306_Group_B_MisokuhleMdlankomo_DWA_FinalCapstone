@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Container, Card, Button } from "react-bootstrap";
-import { fetchShowById, fetchEpisodesBySeasonId, fetchAllShows } from "./CallingApi";
+import { fetchShowById, } from "./CallingApi";
 
 function ShowPreview() {
   const { showId } = useParams();
